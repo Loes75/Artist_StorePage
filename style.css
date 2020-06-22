@@ -1,0 +1,465 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
+html{
+    font-size: 10px;   
+    font-family: 'Lexend Tera', sans-serif;
+    min-height: 100%;
+
+}
+body{
+    min-height: 100%;
+}
+button{
+    font-family: 'Lexend Tera', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header section ---------------------------------------------------------*/
+.header{
+    font-family: 'Lexend Tera', sans-serif;
+
+}
+.container{
+    height: 100%;
+    max-width: 100%;
+    padding: 3vh 0;
+    
+}
+
+.cheader{
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+}
+
+.nav-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    border-bottom: solid 3px gray;
+    padding-bottom: 1vh;
+}
+.nav-item{
+    margin-top: 0.5%;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.4vmin;
+    
+}
+.nav-link:hover{
+    color: gray;
+}
+.name{
+    color: white;
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 3.5vmax;
+    
+}
+
+.section-header{
+    text-align: left;
+    font-size: 6vmin;
+    font-family: 'Lexend Tera', sans-serif;
+    margin: 1% 0 5% 3% ;
+
+}
+/* Store section ---------------------------------------------------------*/
+.shop-items{
+    display: -ms-grid;
+    display: grid;
+    display: -moz-grid;
+    
+    
+    -ms-grid-columns:  20% 15rem 20%;
+    
+    
+    grid-template-columns:  20% 20%;
+    
+    
+
+    
+    -moz-column-gap: 15rem;
+
+    
+         -webkit-column-gap: 15rem;
+
+    
+            column-gap: 15rem;
+    row-gap: 10rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; 
+    height: 100%;  
+}
+
+.shop-item img{
+    width: 100%;
+}
+.name-album{
+    font-size: 3vmin;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.details{
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.item-price{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    font-size: 2.5vmin;
+    margin-left: 7%;
+}
+
+.add-item{
+    padding: 1vh;
+    border-radius: 10%;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 1.8vmin;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.add-item:hover{
+    background-color: rgb(49, 48, 48);
+}
+
+.merch-name{
+    text-align: right;
+    font-size: 3vmin;
+    margin-bottom: 10px;
+}
+.merch-img{
+    height: 80%;
+    width: auto;
+}
+.cart{
+    width: 70%;
+    justify-items: center;
+    margin: 0 auto;
+}
+.header-cart{
+    text-align: center; 
+    margin-top: 4%;
+}
+.cart-row{
+    margin-top: 5%;
+    font-size: 1.2vmax;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+   
+    
+}
+.item{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+}
+.price{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+}
+.quantity{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.column-quantity{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.cart-img{
+    width: 10%;
+    height: auto;
+
+}
+
+.item-quantity{
+    height: 40%;
+    width: 20%;
+    font-size: 1.3vmax;
+    background-color: rgb(201, 201, 201);
+    color:black;
+    margin-right: 8px;
+    
+}
+.remove-item{
+    height: 40%;
+    border-style: none;
+    text-transform: uppercase;
+    padding: 1vmin 1vmax;
+    border-radius: 10%;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 2vmin;
+    
+
+}
+.total{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    font-size: 1vw;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.total h2{
+    margin-right: 60px;
+}
+.btn{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.purchase{
+    padding: 2vh;
+    border-radius: 10%;
+    border-style: none;
+    text-transform: uppercase;
+    font-size: 3vmin;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.purchase:hover{
+    background-color: rgb(49, 48, 48);
+}
+/* Home section ---------------------------------------------------------*/
+.btn-get{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+
+}
+.get-album{
+    padding: 2vh;
+    border-style: solid;
+    border-width: 2px;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    margin-bottom: 2%;
+    margin-left: 3%;
+
+}
+
+.get-album:hover{
+    background-color: rgba(180, 180, 180, 0.4);
+
+}
+.tours-item{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.tour-row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 2% 0;
+    border-bottom: solid 3px rgba(58, 57, 57, 0.733);
+  
+}
+.tour-row h2{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    font-size: 1vmax;
+}
+.buy-ticket{
+    padding: 2vh;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+    border-style: none;
+    font-size: 1vw;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buy-ticket:hover{
+    background-color: rgb(49, 48, 48);
+}
+/* About section ---------------------------------------------------------*/
+.about{
+    padding-top: 6%;
+    background-color: black;
+    color: blanchedalmond;
+}
+.artist-img{
+    width: 400px;
+    height: auto;
+    padding: 0;
+    
+
+}
+
+.info-about{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    min-height: 400px;
+}
+.text-about{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vmin;
+    text-align: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+/* Footer section ---------------------------------------------------------*/
+.footer-name{
+    font-size: 2vw;
+}
+.contact{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.contact h3{
+    margin-left: 10%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+.social {
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    margin-left: 40%;
+}
+.icon{
+    font-size: 3vw;
+    color: black;
+    margin: 0 5%;
+}
+.icon:hover{
+    color: rgba(58, 57, 57, 0.733);
+}
+footer{
+    background: -o-linear-gradient( 250deg, rgba(180, 180, 180, 0.7) 0%, rgba(58, 57, 57, 0.733) 100%);
+    background: linear-gradient( 200deg, rgba(180, 180, 180, 0.7) 0%, rgba(58, 57, 57, 0.733) 100%);
+}
+/* Media screen ---------------------------------------------------------*/
+@media screen and (max-width: 783px) and (max-height: 850px) {
+.shop-items{
+    grid-template-columns: repeat(auto-fit, minmax(100px,200px) ) ;
+}
+.artist-img{
+    max-height: 250px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+}
+
+.info-about{
+    min-height: 73vh;
+    justify-content: center;
+}
+
+.get-album{
+    margin-top: 3vh;
+   
+}
+.tours{
+    min-height: 73vh;
+    padding-top: 10vh;
+} 
+}
+
+@media screen and (max-width: 400px) and (max-height: 700px){
+
+.info-about{
+    flex-direction: column;
+}
+
+.artist-img{
+    width: 150px;
+    height: 150px;
+}
+
+}
